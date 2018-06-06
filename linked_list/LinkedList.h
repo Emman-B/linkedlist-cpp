@@ -5,7 +5,7 @@ class LinkedList
 protected:
 	class Node
 	{
-	public:
+	protected: //i don't know if this breaks things but i changed this into public
 		Node(T* data, Node* next) 
 		{
 			this->data = data;
